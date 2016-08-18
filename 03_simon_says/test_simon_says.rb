@@ -57,6 +57,7 @@ class TestSimonSays < MiniTest::Test
     assert_equal "abc", start_of_word(s, 3)
   end
 
+
   # first_word
   def test_first_word
     assert_equal "Hello", first_word("Hello World")
